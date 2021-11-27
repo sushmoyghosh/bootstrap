@@ -1,0 +1,146 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+
+}
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.hr-style{
+    border: 5px dotted red;
+    border-bottom: none;
+    width: 50px;
+}
+/* common css */
+/* header part */
+.navbar-brand h1 span{
+    color: red;
+}
+header{
+    background-image: url(../img/1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0,0,0,0.3);
+}
+.navbar-icon{
+    color: white;
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+   background:red ;
+   color: orange;
+   transform: scale(1.1);
+}
+.banner-container{
+    height: 100vh;
+}
+.banner-container h1{
+    font-size: 2.5rem;
+    padding-top: 10px ;
+    padding-left: 5px;
+    padding-right: 20px;
+    font-family: 'Handlee', cursive;
+     
+    
+}
+.banner-container h2{
+    font-size: 2rem;
+    padding-left: 5px;
+    padding-right: 20px;
+    font-family: 'Handlee', cursive;
+    
+    
+}
+/* header end */
+ /* <!-- about me start --> */
+#about_us{
+    padding: 1% 8.8%;
+
+ }
+.section-title h3 span{
+    color: orange;
+}
+
+/* <!-- about me end -->  */
+/* special part */
+
+#special{
+    padding: 1% 8.8%;
+    background-color: black;
+}
+.special_one{
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+.special_one:hover{
+    transform: :scale(1.1);
+    box-shadow: 6px 8px 10px red;
+}
+/* special part end */
+/* dish part */
+.special_two img{
+    border-radius: 10px;
+}
+.special_two{
+    border: 1px solid orange;
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: .4s;
+}
+.special_two:hover{
+    transform: :scale(1.1);
+    box-shadow: 6px 8px 10px red;
+}
+/* dish part end */
+/* contact part */
+.contact-img{
+    background-image: url(../img/7.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+}
+.form-group{
+    
+    padding: 1% 7%;
+}
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+/* contact part end */
+/* footer part */
+footer{
+    padding: 1% 10%;
+    background-color: black;
+}
+footer a{
+    color: white;
+    margin: 0 7px;
+}
+footer a:hover{
+    color: orange;
+}
+
+/* footer part end */
